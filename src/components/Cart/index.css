@@ -1,0 +1,250 @@
+.cart-card {
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-top: 48px;
+  margin-bottom: 65px;
+  background: #f9fbfe;
+  border: 1px solid rgba(11, 105, 255, 0.1);
+  padding-left: 48px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-iqp-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.cart-iqp-h {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #475569;
+}
+
+.cart-ul {
+  padding: 0px;
+}
+.cart-li {
+  list-style-type: none;
+
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+
+  align-items: center;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+
+  width: 450px;
+}
+.cart-item-img {
+  height: 100px;
+  width: 136px;
+  border-radius: 8px;
+}
+.cart-item-h {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.2px;
+
+  color: #183b56;
+  margin-left: 16px;
+}
+.cart-item-quantity {
+  margin-left: 80px;
+  flex-grow: 1;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #475569;
+}
+.cart-item-cost {
+  margin-right: 80px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffa412;
+}
+.cart-hr {
+  border: 1px dashed #cbd2d9;
+  margin-top: 20px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.tot-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total-h {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #3e4c59;
+}
+.total-pr {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3e4c59;
+  margin-right: 75px;
+}
+
+.place-order-btn {
+  align-self: flex-end;
+  margin-top: 32px;
+  margin-right: 70px;
+  margin-bottom: 48px;
+
+  width: 99px;
+  height: 32px;
+
+  background: #f7931e;
+  border-radius: 8px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+  border: 0px;
+}
+.sm-cart-item-h {
+  display: none;
+}
+.sm-h-q-c {
+  display: none;
+}
+@media screen and (max-width: 590px) {
+  .cart-card {
+    margin: 24px;
+    margin-top: 32px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+  }
+  .cart-iqp-card {
+    display: none;
+  }
+  .cart-li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .cart-item {
+    width: 136px;
+  }
+  .cart-item-img {
+    height: 100px;
+    width: 136px;
+    left: 24px;
+    top: 96px;
+    border-radius: 8px;
+  }
+  .cart-item-h {
+    display: none;
+  }
+  .cart-item-quantity {
+    display: none;
+  }
+  .cart-item-cost {
+    display: none;
+  }
+  .sm-cart-item-h {
+    display: block;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px;
+
+    color: #183b56;
+
+    margin: 0px;
+    padding: opx;
+    margin-bottom: 8px;
+  }
+
+  .sm-h-q-c {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+  }
+  .sm-cart-item-quantity {
+    margin: 0px;
+    margin-bottom: 8px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* Light / blue-gray / 600 */
+
+    color: #475569;
+  }
+  .sm-cart-item-cost {
+    margin: 0px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #ffa412;
+  }
+  .total-h {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .total-pr {
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 0px;
+  }
+  .place-order-btn {
+    margin-right: 0px;
+  }
+}

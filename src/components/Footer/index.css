@@ -1,0 +1,110 @@
+.footer-bg {
+  background: #0f172a;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.footer-div-1 {
+  display: flex;
+  align-items: center;
+}
+
+.footer-img {
+  height: 39.000038146972656px;
+  width: 49.000179290771484px;
+  margin-right: 18px;
+}
+.footer-h {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+
+.footer-p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.footer-imgs-div {
+  display: flex;
+
+  margin-top: 48px;
+  margin-bottom: 94px;
+}
+.footer-contact-img-card {
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.footer-contact-img-inner {
+  height: 26.7634334564209px;
+  width: 21.1429443359375px;
+}
+
+.footer-contact-img {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43.8592px;
+  line-height: 50px;
+  text-align: center;
+  margin-left: 19px;
+  margin-right: 19px;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 590px) {
+  .footer-img {
+    height: 29.023286819458008px;
+    width: 36.981266021728516px;
+    margin-right: 14px;
+  }
+  .footer-h {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .footer-p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .footer-imgs-div {
+    margin-top: 32px;
+    margin-bottom: 50px;
+  }
+  .footer-contact-img-card {
+    height: 25px;
+    width: 25px;
+  }
+  .footer-contact-img-inner {
+    height: 13.38171672821045px;
+    width: 10.571471214294434px;
+  }
+  .footer-contact-img {
+    height: 25px;
+    width: 25px;
+
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
